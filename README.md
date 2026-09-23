@@ -1,0 +1,1 @@
+# amper_tem_ori
