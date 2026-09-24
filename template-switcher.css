@@ -2,6 +2,7 @@
    Compact fixed preview panel for admin on index.html only. */
 
 #templateSwitcherModal[hidden]{display:none!important}
+#templateSwitcherModal:not([hidden]){display:block!important;visibility:visible!important;opacity:1!important}
 body.admin-edit-mode #templateSwitcherButton[hidden]{display:none!important}
 
 /* Fixed admin trigger: visible only because it also has .admin-only. */
@@ -41,7 +42,6 @@ body.admin-edit-mode #templateSwitcherButton{display:inline-flex!important}
   top:50%!important;
   right:auto!important;
   bottom:auto!important;
-  inset:auto!important;
   transform:translateY(-50%)!important;
   z-index:69000!important;
   width:min(250px,calc(100vw - 20px))!important;
